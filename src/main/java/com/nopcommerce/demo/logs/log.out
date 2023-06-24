@@ -1,0 +1,6 @@
+2023-06-24 23:06:740 INFO  HomePage :24 - clicking on login link : By.linkText: Log in
+2023-06-24 23:06:582 INFO  LoginPage :35 - getting text from : By.xpath: //h1[contains(text(),'Welcome, Please Sign In!')]
+2023-06-24 23:06:205 INFO  HomePage :24 - clicking on login link : By.linkText: Log in
+2023-06-24 23:06:440 INFO  HomePage :24 - clicking on login link : By.linkText: Log in
+2023-06-24 23:06:417 INFO  HomePage :24 - clicking on login link : By.linkText: Log in
+2023-06-24 23:06:238 INFO  LoginPage :35 - getting text from : By.xpath: //h1[contains(text(),'Welcome, Please Sign In!')]
