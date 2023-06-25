@@ -59,7 +59,7 @@ public class CustomListeners implements ITestListener {
     public void onStart(ITestContext iTestContext) {
         reporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/test-output/extent.html");
         reporter.config().setDocumentTitle("Automation Report");
-        reporter.config().setReportName("NopCommerce");
+        reporter.config().setReportName("NopCommerce"); // please change my name to current project name before you submit, else goo luck----
         reporter.config().setTheme(Theme.STANDARD);
         reports = new ExtentReports();
         reports.attachReporter(reporter);
@@ -67,8 +67,8 @@ public class CustomListeners implements ITestListener {
         reports.setSystemInfo("User Name", System.getProperty("user.name"));
         reports.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
         reports.setSystemInfo("Machine", "Windows 10" + "64 Bit");
-        reports.setSystemInfo("Selenium", "4.8");
-        reports.setSystemInfo("Maven", "3.8.5");
+        reports.setSystemInfo("Selenium", "4.9");  // change
+        reports.setSystemInfo("Maven", "4.10");
         reports.setSystemInfo("Java Version", "1.8.0_151");
 
     }
